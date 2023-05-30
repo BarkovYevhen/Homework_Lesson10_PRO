@@ -1,0 +1,10 @@
+.wrapper {
+  padding: 10px;
+  display: flex;
+}
+
+.textarea {
+  height: 60px;
+  width: 200px;
+  text-align: center;
+}/*# sourceMappingURL=ghost.css.map */
