@@ -11,7 +11,9 @@ textArea.addEventListener("blur", () => {
 function createGhostDiv() {
   const ghostDiv = document.createElement("div");
   ghostDiv.id = "ghostDiv";
-  newDiv.setAttribute(innerWidth, 200, innerHeight, 60);
+  ghostDiv.style.width = "200px";
+  ghostDiv.style.height = "60px";
+  ghostDiv.style.border = "2px solid black";
   ghostDiv.innerText = "Boo! I`m a ghost!";
   textArea.parentNode.appendChild(ghostDiv);
 }
