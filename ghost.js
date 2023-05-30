@@ -14,6 +14,7 @@ function createGhostDiv() {
   ghostDiv.style.width = "200px";
   ghostDiv.style.height = "60px";
   ghostDiv.style.border = "2px solid black";
+  ghostDiv.style.textAlign = "center";
   ghostDiv.innerText = "Boo! I`m a ghost!";
   textArea.parentNode.appendChild(ghostDiv);
 }
